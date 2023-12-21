@@ -6,11 +6,26 @@
 
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      photoCover="https://picsum.photos/id/870/200/300?grayscale&blur=2"
+      cardTitle="Lorem ipsum"
+      cardDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, possimus repellendus.">
+    </app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      cardTitle="Nova versão do Angular"
+      photoCover="https://dummyimage.com/mediumrectangle">
+    </app-small-card>
+
+    <app-small-card
+      cardTitle="Lorem ipsum dolor sit amet"
+      photoCover="https://dummyimage.com/300x250/a61ca6/fff.png&text=300x250">
+    </app-small-card>
+
+    <app-small-card
+      cardTitle="Sit amet"
+      photoCover="https://dummyimage.com/300x250/511ca6/fff.png&text=300x250">
+    </app-small-card>
   </div>
 </div>
