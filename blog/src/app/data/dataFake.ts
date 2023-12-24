@@ -10,5 +10,17 @@ export const dataFake = [
     "title": "Nova Série anunciada no Disney +",
     "description": "bla blabla",
     "photoCover":"https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+  },
+  {
+    "id":"3",
+    "title": "Notícia Exemplo",
+    "description": "Lorem Ipsum",
+    "photoCover":"https://dummyimage.com/leaderboard"
+  },
+  {
+    "id":"4",
+    "title": "Sit amet",
+    "description": "Lorem Ipsum",
+    "photoCover":"https://dummyimage.com/leaderboard"
   }
 ]
